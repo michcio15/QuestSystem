@@ -30,13 +30,13 @@ and in there you provide what should happen when progress to this quest is added
 and to add that quest to a player you need to have a `QuestComponent`. You can use for it `QuestComponent.Get(Player)`.
 Once you have it need too 
 ```cs
-QuestComponent:Add(Basequest);
+QuestComponent::Add(Basequest);
 ```
 so in this example
 ```cs
 QuestComponent.Add(new KillPlayersQuest(5f));
 ```
-this `5f` means what is the max progress that once its reached the `BaseQuest:OnQuestCompleted` would be called.
+this `5f` means what is the max progress that once its reached the `BaseQuest::OnQuestCompleted` would be called.
 ## Support 
 If you have any questions feel free to dm me on discord (@michcio15) or ping on Exiled discord server
 
