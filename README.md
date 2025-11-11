@@ -28,7 +28,7 @@ and in there you provide what should happen when progress to this quest is added
     }
 ```
 and to add that quest to a player you need to have a `QuestComponent`. You can use for it `QuestComponent.Get(Player)`.
-Once you have it need too 
+Once you have it need to 
 ```cs
 QuestComponent::Add(Basequest);
 ```
